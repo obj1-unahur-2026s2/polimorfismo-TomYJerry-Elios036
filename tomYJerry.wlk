@@ -7,6 +7,9 @@ object tom {
     method velocidadMaxima(){
         5 + energia /10
     }
+    method estaFeliz(){
+        energia > 50
+    }
 }
 
 object jerry {
