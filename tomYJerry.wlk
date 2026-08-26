@@ -1,8 +1,8 @@
 object tom {
     var energia = 50
-    
-    method comer() {energia = energia + 12 + raton.peso()}
-    method correr() { 
+
+    method comer(raton) {energia = energia + 12 + raton.peso()}
+    method correr(cantidadDeMetros) { 
         energia = cantidadDeMetros / 2}
     method velocidadMaxima(){
         5 + energia /10
