@@ -3,9 +3,9 @@ object tom {
 
     method comer(raton) {energia = energia + 12 + raton.peso()}
     method correr(cantidadDeMetros) { 
-        energia = cantidadDeMetros / 2}
+        energia = energia - cantidadDeMetros / 2}
     method velocidadMaxima(){
-        5 + energia /10
+        5 + energia / 10
     }
     method estaFeliz(){
         energia > 50
@@ -15,7 +15,7 @@ object tom {
 object jerry {
     var edad = 2 
     method peso(){edad*20}
-    method cumplirAnior(){edad = edad + 1}
+    method cumplirAnios(){edad = edad + 1}
 }
 
 object nibbles {
